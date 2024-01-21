@@ -97,4 +97,7 @@ body {
   border-top: none;
 }
 
+a {
+  text-decoration: none;
+}
 
