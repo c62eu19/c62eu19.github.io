@@ -1,12 +1,14 @@
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+<meta charset="utf-8">
 <title>Stan Zajdel</title>
-<meta name="description" content="My personal website.">
-
+<meta name="description" content="My personal website">
 <meta name="author" content="Stan Zajdel">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Stan Zajdel">
@@ -23,21 +25,144 @@
       "@type": "Person",
       "name": null,
       "url": "https://c62eu19.github.io/"
-    
-  }
+      }
 </script>
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Stan Zajdel Feed">
+<link href='./assets/css/skeleton.css' rel='stylesheet' type='text/css'>
+<link href='./assets/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='./assets/css/style.css' rel='stylesheet' type='text/css'>
 
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="./assets/js/site.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+	<nav class="navbar">
+		<div class="container">
+			<ul class="navbar-list">
+				<li class="navbar-item-left">
+					<img style="height="50" width="110" src="./assets/images/me.jfif">
+				</li>
+				<li class="navbar-item-left"4
+					<span style="margin-top: 20px; margin-left: 9px; font-size: 22px; font-weight:600;">
+						Stan Zajdel
+					</span>
+				</li>
+
+				<li id="menu-about" class="navbar-item-right">
+					<a class="navbar-link" onclick="openTab(event, 'white papers')">White Papers</a>
+				</li>
+				<li id="menu-about" class="navbar-item-right">
+					<a class="navbar-link" onclick="openTab(event, 'research')">Research</a>
+				</li>
+				<li id="menu-sign-in" class="navbar-item-right">
+					<a class="navbar-link" onclick="openTab(event, 'bio')">Bio</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div id="bio" class="tabcontent">
+
+	<section class="header">
+		<h4>Bio</h4>
+	</section>
+
+	<p>
+	Creative and forward-looking software architect with a solid combination of technical, leadership, and communication 
+	skills along with a broad and deep understanding of software technologies and architecture, development tools, 
+	practices and methodologies. I work effectively across the board from C-level to individual business and technical 
+	contributors to provide solutions that are of best fit and of high quality.
+	</p>
+	<p>
+	<b>Knowledge and hands-on experience in the following:</b>
+	</p>
+
+	<b>Software Architecture and Engineering</b> (Java, Python, Javascript, C/C++)
+	<br/>
+	<b>Microservice and container architectures</b> (Openshift, Docker)
+	<br/>
+	<b>Cloud technologies</b> (AWS, GCP)
+	<br/>
+	<b>DevSecOps tools, processes and practices</b> (SAST, SCA, DAST)
+	<br/>
+	<b>CI/CD Pipeline automation</b> (Jenkins, Azure DevOps)
+	<br/>
+	<b>Data modeling and design</b> (relational and NoSQL)
+	<br/>
+	<b>Machine Learning</b> (Generative AI, Prompt Engineering, Keras, Tensorflow)
+	<br/>
+	<br/>
+
+	<p>
+	<b>Certifications:</b>
+	</p>
+
+	<b>Certified TOGAF 9 Practitioner</b><br/>
+	opengroup.orgopengroup.org<br/>
+	Credential ID: 46017
+	<br/>
+	<br/>
+	<b>Lean Six Sigma Yellow Belt</b><br/>
+	GoLeanSixSigma.com, Credential ID: 1414297
+	<br/>
+	<br/>
+	<br/>
+
+	</div>
+
+	<div id="research" class="tabcontent">
+
+	<section class="header">
+		<h4>Research</h4>
+	</section>
+
+	<p>
+	My research interests revolve around software reuse, software evolution, cloud computing and of 
+	course, generative AI. I'm interested in how software languages have evolved over the years and how far we 
+	have come to whare we stand today.
+	</p>
+
+	<p>
+	Publications:
+	</p>
+
+	<b>Open Source Software: An Approach to Controlling Usage and Risk in Application Ecosystems</b><br/>
+	SPLC '22: Proceedings of the 26th ACM International <br/>
+	Systems and Software Product Line Conference -  Volume A - Pages 154-163 · Sep 12, 2022 <br/>
+	<a href="https://dl.acm.org/doi/10.1145/3546932.3547000"></a>
+
+	<br/>
+	<br/>
+	<br/>
+
+	</div>
+
+	<div id="white papers" class="tabcontent">
+
+	<section class="header">
+		<h4>White Papers</h4>
+	</section>
+
+
+	<br/>
+	<br/>
+	<br/>
+
+	</div>
+
+<footer>
+  <p>&copy; 2024 Stan Zajdel</p>
+</footer>
+
+</div>
+
+</div>
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.getElementById("bio").style.display = "block";
 </script>
 
-  </head>
-
-  <body class="layout--single">
-    </body>
+</body>
 </html>
