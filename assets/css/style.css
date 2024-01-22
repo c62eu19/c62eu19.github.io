@@ -102,10 +102,8 @@ body {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: .2rem;
-  margin-left: 25px;
   text-decoration: none;
-  line-height: 6.5rem;
-  color: #222;
+  color: #000;
   cursor: pointer;
 }
 
