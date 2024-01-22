@@ -101,3 +101,7 @@ a {
   text-decoration: none;
 }
 
+.rounded {
+  border-radius: 75px;
+}
+
