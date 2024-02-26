@@ -7,10 +7,6 @@ body {
   text-align: center;
 }
 
-.title {
-  color:#0000ff;
-}
-
 .navbar {
   display: block;
   position: fixed;
