@@ -16,8 +16,6 @@ body {
   height:9rem;
   background: #000;
   z-index: 99;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
 }
 
 .navbar > .container {
@@ -54,7 +52,7 @@ body {
 }
 
 .navbar-link.active {
-  color: #222;
+
 }
 
 .tab {
