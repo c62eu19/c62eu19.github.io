@@ -57,8 +57,8 @@ body {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid #000;
+  background-color: #fff;
 }
 
 .tab button {
@@ -73,11 +73,11 @@ body {
 }
 
 .tab button:hover {
-  background-color: #ddd;
+
 }
 
 .tab button.active {
-  background-color: #ccc;
+  background-color: #000;
 }
 
 .tabcontent {
