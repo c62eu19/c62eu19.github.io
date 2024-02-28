@@ -36,37 +36,24 @@
 </head>
 <body>
 
-<div class="container">
-	<nav class="navbar">
-		<div class="container">
-			<ul class="navbar-list">
-				<li class="navbar-item-left">
-					<img class="rounded" style="height="50" width="110" src="/assets/images/me.jfif">
-				</li>
-				<li class="navbar-item-left"4
-					<span style="margin-top: 20px; margin-left: 9px; font-size: 22px; font-weight:600;">
-						Stan Zajdel
-					</span>
-				</li>
+<a class="navbar-link" onclick="openTab(event, 'bio')">Bio</a>
+<div class="topnav" id="recipeTopnav">
+  <img class="rounded" style="height="50" width="110" src="/assets/images/me.jfif">
+  <span style="margin-top: 20px; margin-left: 9px; font-size: 22px; font-weight:600;">
+    Stan Zajdel
+  </span>
+  <a class="navbar-link" onclick="openTab(event, 'white papers')">White Papers</a>
+  <a class="navbar-link" onclick="openTab(event, 'research')">Research</a>
+  <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
-				<li id="menu-about" class="navbar-item-right">
-					<a class="navbar-link" onclick="openTab(event, 'white papers')">White Papers</a>
-				</li>
-				<li id="menu-about" class="navbar-item-right">
-					<a class="navbar-link" onclick="openTab(event, 'research')">Research</a>
-				</li>
-				<li id="menu-sign-in" class="navbar-item-right">
-					<a class="navbar-link" onclick="openTab(event, 'bio')">Bio</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+<div id="bio" class="tabcontent">
 
-	<div id="bio" class="tabcontent">
-
-	<section class="header">
-		<h4>Bio</h4>
-	</section>
+<section class="header">
+  <h4>Bio</h4>
+</section>
 
 	<p>
 	I am a software architect with a solid combination of technical, leadership, and communication 
