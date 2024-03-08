@@ -89,6 +89,8 @@ body {
 .image {
   border-radius: 75px;
   float: left;
+  margin-top:9px;
+  margin-bottom-9px;
 }
 
 @media screen and (max-width: 600px) {
