@@ -113,7 +113,7 @@ table th {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:nth-child(2)) {
+  .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
@@ -129,7 +129,6 @@ table th {
     top: 0;
   }
   .topnav.responsive a {
-    position: none;
     float: none;
     display: block;
     text-align: left;
