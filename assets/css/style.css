@@ -125,7 +125,7 @@ table th {
     top: 0;
   }
   .topnav.responsive a {
-    float: right;
+    float: left;
     display: block;
     text-align: left;
   }
